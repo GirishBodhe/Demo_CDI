@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25892B4736C5277116D4C7B0 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F08DA8D611C393887250638 /* AssetsLibrary.framework */; };
+		56286ABA48A802AFE929F2D1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BE18F6D8D38275A12B78C4 /* CoreMedia.framework */; };
+		67BC9AC000513446EDCC3CCF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB88A379BAA4330523E84CF /* CoreTelephony.framework */; };
+		766AFCB3DF7C3BF8A5F822E0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C01A577D48521F52F2CC8BD /* CoreVideo.framework */; };
+		797BBA4FF7278A137205DB77 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B7345C0BD5E60501DFA5E0 /* AVFoundation.framework */; };
+		A877D025CBE1ED01C8933C73 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C4F5AB8D248DBB7AB8778D /* SystemConfiguration.framework */; };
 		AB9222F21E51AE9B00BFD672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9222F11E51AE9B00BFD672 /* main.m */; };
 		AB9222F51E51AE9B00BFD672 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9222F41E51AE9B00BFD672 /* AppDelegate.m */; };
 		AB9222F81E51AE9B00BFD672 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9222F71E51AE9B00BFD672 /* ViewController.m */; };
@@ -15,6 +21,9 @@
 		AB9223001E51AE9B00BFD672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9222FE1E51AE9B00BFD672 /* LaunchScreen.storyboard */; };
 		AB92230B1E51AE9C00BFD672 /* Demo_CDITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92230A1E51AE9C00BFD672 /* Demo_CDITests.m */; };
 		AB9223161E51AE9C00BFD672 /* Demo_CDIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9223151E51AE9C00BFD672 /* Demo_CDIUITests.m */; };
+		B4223210D52962F89D9C1497 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5824B3B86358FD885D9D4066 /* CoreText.framework */; };
+		B42E9ADB0B5BFF6A3D2BBC79 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B93E1D65CEA119D1296B23 /* BuddyBuildSDK.framework */; };
+		D21F77DFE1627E8ECF774664 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D479A502D70E05873E18F3D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18B93E1D65CEA119D1296B23 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		19BE18F6D8D38275A12B78C4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1C01A577D48521F52F2CC8BD /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2D479A502D70E05873E18F3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3F08DA8D611C393887250638 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5824B3B86358FD885D9D4066 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		AB9222ED1E51AE9B00BFD672 /* Demo_CDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_CDI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9222F11E51AE9B00BFD672 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB9222F31E51AE9B00BFD672 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,9 @@
 		AB9223111E51AE9C00BFD672 /* Demo_CDIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_CDIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9223151E51AE9C00BFD672 /* Demo_CDIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_CDIUITests.m; sourceTree = "<group>"; };
 		AB9223171E51AE9C00BFD672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C4F5AB8D248DBB7AB8778D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E7B7345C0BD5E60501DFA5E0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FEB88A379BAA4330523E84CF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B42E9ADB0B5BFF6A3D2BBC79 /* BuddyBuildSDK.framework in Frameworks */,
+				25892B4736C5277116D4C7B0 /* AssetsLibrary.framework in Frameworks */,
+				B4223210D52962F89D9C1497 /* CoreText.framework in Frameworks */,
+				67BC9AC000513446EDCC3CCF /* CoreTelephony.framework in Frameworks */,
+				A877D025CBE1ED01C8933C73 /* SystemConfiguration.framework in Frameworks */,
+				D21F77DFE1627E8ECF774664 /* QuartzCore.framework in Frameworks */,
+				797BBA4FF7278A137205DB77 /* AVFoundation.framework in Frameworks */,
+				56286ABA48A802AFE929F2D1 /* CoreMedia.framework in Frameworks */,
+				766AFCB3DF7C3BF8A5F822E0 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +112,7 @@
 				AB9223091E51AE9C00BFD672 /* Demo_CDITests */,
 				AB9223141E51AE9C00BFD672 /* Demo_CDIUITests */,
 				AB9222EE1E51AE9B00BFD672 /* Products */,
+				F0F1E77676F7D043A703F1BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +166,22 @@
 				AB9223171E51AE9C00BFD672 /* Info.plist */,
 			);
 			path = Demo_CDIUITests;
+			sourceTree = "<group>";
+		};
+		F0F1E77676F7D043A703F1BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B93E1D65CEA119D1296B23 /* BuddyBuildSDK.framework */,
+				3F08DA8D611C393887250638 /* AssetsLibrary.framework */,
+				5824B3B86358FD885D9D4066 /* CoreText.framework */,
+				FEB88A379BAA4330523E84CF /* CoreTelephony.framework */,
+				E2C4F5AB8D248DBB7AB8778D /* SystemConfiguration.framework */,
+				2D479A502D70E05873E18F3D /* QuartzCore.framework */,
+				E7B7345C0BD5E60501DFA5E0 /* AVFoundation.framework */,
+				19BE18F6D8D38275A12B78C4 /* CoreMedia.framework */,
+				1C01A577D48521F52F2CC8BD /* CoreVideo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,6 +466,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Demo_CDI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pridevel.Demo-CDI";
@@ -433,6 +481,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Demo_CDI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pridevel.Demo-CDI";
@@ -505,6 +557,7 @@
 				AB92231C1E51AE9C00BFD672 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB92231D1E51AE9C00BFD672 /* Build configuration list for PBXNativeTarget "Demo_CDITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +566,7 @@
 				AB92231F1E51AE9C00BFD672 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB9223201E51AE9C00BFD672 /* Build configuration list for PBXNativeTarget "Demo_CDIUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +575,7 @@
 				AB9223221E51AE9C00BFD672 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
