@@ -20,6 +20,10 @@
     [BuddyBuildSDK setup];
     
     // Override point for customization after application launch.
+    
+    
+    
+    //CDI ...
     return YES;
 }
 
